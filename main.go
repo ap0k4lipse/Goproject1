@@ -1,8 +1,10 @@
 package main
 
 import "fmt"
+import "math"
 
 func main() {
-	var Age int = 18
-	fmt.Println(Age)
+	age := math.Sqrt(9)
+	fmt.Println(age)
+
 }
